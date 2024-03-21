@@ -9,16 +9,16 @@ body {
 }
 
 .container {
-    padding: 20px; /* Mengurangi padding untuk meningkatkan responsivitas */
-    margin: 0 auto; /* Memusatkan konten */
-    max-width: 1200px; /* Membatasi lebar konten */
+    padding: 20px; 
+    margin: 0 auto; 
+    max-width: 1200px;
 }
 
 .content-container {
     background-color: rgba(255, 255, 255, 0.7); 
     padding: 20px;
     border-radius: 10px; 
-    margin-bottom: 20px; /* Memberikan margin bawah untuk memisahkan konten */
+    margin-bottom: 20px;
     text-align: justify;
 }
 
@@ -27,8 +27,8 @@ body {
 }
 
 .gambar-kanan {
-    max-width: 100%; /* Gambar akan menyesuaikan lebar container */
-    height: auto; /* Memastikan proporsi gambar tidak terdistorsi */
+    max-width: 100%; 
+    height: auto; 
     border-radius: 10px;
     margin-top: 20px;
 }
@@ -39,43 +39,15 @@ body {
 
 .navbar {
     padding: 8px 16px;
-    height: auto; /* Menghilangkan tinggi tetap, biarkan konten menentukan tinggi */
+    height: auto;
     border-bottom: 4px solid #0003a7; 
 }
 
 .navbar-brand {
-    font-size: 24px; /* Sedikit mengurangi ukuran font */
-}
-
-.navbar-nav {
-    margin-right: 0;
-}
-
-.navbar-toggler {
-    border: none;
-}
-
-#toggle-mode {
-    margin-left: 10px;
-}
-
-@media (max-width: 768px) {
-    .navbar-nav {
-        flex-direction: column;
-    }
-
-    .navbar-brand {
-        margin-bottom: 10px;
-    }
-
-    #toggle-mode {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-}
+    font-size: 24px; 
 
 .navbar-brand, .navbar-nav .nav-link {
-    font-size: 1.25rem; /* Sedikit mengurangi ukuran font */
+    font-size: 1.25rem;
 }
 
 .dark-mode {
