@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(gambar/ppp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.container {
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 1800px;
+}
+
+.content-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.profil-pengembang h2 {
+    font-size: 30px;
+}
+
+.gambar {
+    width: 300px;
+    max-height: 350px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+
+.teks-profil {
+    font-size: 26px;
+    line-height: 1.5;
+}    
+
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-mode .content-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: background-color 0.5s;
+}
+
+.navbar {
+    padding: 8px 16px;
+    height: 100px;
+    border-bottom: 4px solid #0003a7; 
+}
+
+.navbar-brand {
+    font-size: 30px; 
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    font-size: 1.5rem; 
+}
+
+.dark-mode .btn {
+    background-color: #333 !important;
+    color: #fff !important;
+}
