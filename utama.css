@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(gambar/ppp.jpg);
+    background-image: url(gambar/geo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -11,46 +11,40 @@ body {
 .container {
     padding: 40px 20px;
     display: flex;
-    flex-wrap: wrap;
     align-items: flex-start;
-    margin: 0 auto;
-    width: 1800px;
+    margin-left: 20px; 
 }
 
 .content-container {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.7); 
     padding: 20px;
+    border-radius: 10px; 
+    margin: 20px auto; 
+    width: 100%; 
+    max-width: 1200px; 
+    float: left;
+    clear: left;
+    text-align: justify;
+}
+
+.image-container {
+    flex-shrink: 0;
+    margin-left: auto;
+}
+
+.gambar-kanan {
+    width: 500px;
+    height: 430px;
     border-radius: 10px;
-    text-align: center;
-    flex-grow: 1;
-}
-
-.profil-pengembang h2 {
-    font-size: 30px;
-}
-
-.gambar {
-    width: 300px;
-    max-height: 350px;
-    border-radius: 30px;
-    margin-bottom: 20px;
-    object-fit: cover;
-}
-
-
-.teks-profil {
-    font-size: 26px;
-    line-height: 1.5;
-}    
-
-.dark-mode {
-    background-color: #222;
-    color: #fff;
+    margin-top: 20px;
 }
 
 .dark-mode .content-container {
     background-color: rgba(0, 0, 0, 0.7);
-    transition: background-color 0.5s;
+}
+
+.container-box {
+    margin-bottom: 20px;
 }
 
 .navbar {
@@ -67,7 +61,17 @@ body {
     font-size: 1.5rem; 
 }
 
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-mode .navbar {
+    background-color: #333;
+}
+
 .dark-mode .btn {
     background-color: #333 !important;
     color: #fff !important;
 }
+
